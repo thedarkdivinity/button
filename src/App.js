@@ -7,18 +7,15 @@ const App = () => {
     setText("It hurts ");
   };
   const yo = () => {
-setcol("chocolate");
+    setcol("chocolate");
+    setText("Itairi");
   };
 
   return (
     <>
       <div className="main" style={{ backgroundColor: col }}>
         <div className="center">
-          <button
-            
-            onMouseLeave={change}
-            onMouseEnter={yo}
-          >
+          <button onMouseLeave={change} onMouseEnter={yo}>
             {text}
           </button>
         </div>
